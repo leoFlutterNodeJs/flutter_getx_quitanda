@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getx_project_loja/src/config/config.dart';
 
 import '../src/auth/auth.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: CustomColors.customSwatchColor,
       ),
       debugShowCheckedModeBanner: false,
       home: const SignInScreen(),
